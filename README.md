@@ -1,6 +1,6 @@
 # Generating Nonstationary Multisensor Signals under a Spatial Coherence Constraint
 
-This code is slightly modified based on the work [1], if you find this code is useful, plese cite the original work [1]
+This code is slightly modified based on the work [1], if you find this code is useful, please cite the original work [1]
 
 USEAGE:    
 1. prepare non-speech audio set and generate a list file;    
