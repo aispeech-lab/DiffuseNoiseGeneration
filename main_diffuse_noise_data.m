@@ -6,13 +6,7 @@ mic_pos = [0.03464101, 0.02;-0.03464101, 0.02]
 gen_L = -1
 
 noise_list = './noise/noise.lst'
-out_path = '/ssd1/dataset/noise_diffuse_chime5'
-num_utts = 19857
-
-gen_diffuse_noise(noise_list, out_path, num_utts, M, mic_pos, gen_L);
-
-noise_list = './data/noise/noise_list_DNS2020.txt'
-out_path = '/ssd1/dataset/noise_diffuse_chime5'
-num_utts = 65302
+out_path = './output'
+num_utts = 4
 
 gen_diffuse_noise(noise_list, out_path, num_utts, M, mic_pos, gen_L);
